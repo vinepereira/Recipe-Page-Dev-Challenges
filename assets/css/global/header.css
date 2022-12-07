@@ -1,0 +1,36 @@
+header.container {
+    padding-top: 50px;
+}
+
+header.container h1 {
+    margin-bottom: 10px;
+}
+
+.header-parag {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    /* align-items: center; */
+    gap: 8px;
+}
+.header-parag img {
+    margin-top: 4px;
+}
+
+.header-parag p {
+    max-width: 65ch;
+    font: var(--font-parag-1);
+    color: var(--cor-3);
+}
+
+@media(max-width:800px) {
+    .header-parag p {
+        font-size: 12px;
+        max-width: 60ch;
+    }
+}
+
+@media(max-width:600px) {
+    .header-parag p {
+        max-width: 50ch;
+    }
+}

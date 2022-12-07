@@ -19,7 +19,7 @@
 
 ## Overview
 
-![screenshot](./desktop.png.png)
+![screenshot](./desktop.png)
 
 
 ### Built With
